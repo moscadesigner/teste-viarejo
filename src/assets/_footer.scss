@@ -1,6 +1,7 @@
 footer{
     border-bottom: 10px solid #000;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
+    z-index: 3;
 }
