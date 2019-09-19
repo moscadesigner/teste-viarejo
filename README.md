@@ -1,6 +1,8 @@
 # TesteViaVarejo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+instalar o [NodeJs] (https://nodejs.org/en/)ultima versão;
+instalar o [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
+Para inciar o projeto digite no terminal ng serve porem já no diretório do projeto.
 
 ## Development server
 
