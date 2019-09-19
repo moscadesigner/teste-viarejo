@@ -1,0 +1,67 @@
+<div class="container-full container-nav">
+    <ul class="nav nav-tabs">
+      <li><a href="#">Dashboard</a></li>
+      <li><a href="#">Resumo</a></li>
+      <li><a href="#">Comfigurações</a></li>
+    </ul>
+</div>
+
+
+<div class="container-full">
+  <div class="container container-page-finance">
+    <div class="box-transition">
+      <div class="object-container">
+        <form ng-controller="ExampleController" class="form-transitions">
+        <h3 class="title-transition">
+          Nova transação
+        </h3>
+        <p>Tipo de transação</p>
+        <select id="tipoTransacao">
+          <option value="">Selecione tipo de transação</option>
+          <option value="compra">Compra</option>
+          <option value="venda">Venda</option>
+        </select>
+
+        <p>Nome da mercadoria</p>
+        <input type="text" name="fname" id="nomeMercadoria">
+
+        <p>Valor</p>
+        <input type="text" (keyup) = "mascaraPreco()" name="fname" id="valorMercadoria">
+        <button (click) = "chamarTransacao()">Adicionar transação</button>
+        <!-- <a href="#" id="btn-add-trasition">Adicionar transação</a> -->
+      </form>
+    </div>
+    </div>
+    <div class="box-transition-extration">
+      <div class="object-container merchandise-list">
+        <h3 class="title-transition">
+          Extrato de transações
+        </h3>
+
+        
+        <table class="table-extract-transition">
+          <thead>
+            <tr>
+              <th>Mercadoria</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody id="table-tr">
+          
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td id="totalTransacao"></td>
+            </tr>
+          </tfoot>
+        </table>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+
+</footer>

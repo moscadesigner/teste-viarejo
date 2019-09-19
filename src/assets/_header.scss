@@ -1,0 +1,25 @@
+.container-nav{
+    background: #eee;
+
+    ul.nav {
+        padding: 0px;
+        width: 95%;
+        height: 60px;
+        margin: auto;
+
+        li{
+            padding: 10px 22px;
+            height: auto;
+            float: right;
+            display: inline-block;
+            background: #fff;
+            border-right: 1px solid #eee;
+            margin-top: 10px;
+
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+}

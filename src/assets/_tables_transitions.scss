@@ -1,0 +1,17 @@
+.table-extract-transition{
+    width: 100%;
+    padding: 10px;
+    thead, tbody, tfoot{
+         border-bottom: 1px solid #000;
+        th{
+            padding: 10px;
+        }
+        td{
+            padding: 10px;
+            border-bottom: 1px solid #000;
+        }
+        td:last-child{
+            text-align: right;
+        }
+    }
+}
