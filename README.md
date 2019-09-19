@@ -4,6 +4,8 @@ instalar ultima versão do [NodeJs] (https://nodejs.org/en/).
 instalar o [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 Para inciar o projeto digite no terminal ng serve porem já no diretório do projeto.
 
+Caso a aplicação iniacia fique no loading na tela, vá até o arquivo src/app/app.component.ts e aperte Crtl + S para compilar o projeto e visualizar na tela.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
